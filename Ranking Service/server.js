@@ -44,3 +44,4 @@ app.post('/rank', async (req, res) => {
         content: `User **${data.ranker}** ranked **${data.rankedname}** from **${data.oldrank}** to **${data.newrank}**`
     })
 })
+app.listen(3000)
